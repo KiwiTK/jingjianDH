@@ -8,7 +8,7 @@ const config = {
         {
             name: "百度",
             template: "https://www.baidu.com/s?wd=$s",
-            logo: "https://raw.githubusercontent.com/KiwiTK/CF-Worker-Dir/refs/heads/master/PCtm_d9c8750bed0b3c7d089fa7d56cf.png"
+            logo: "https://shizi.ggff.net/bd.png"
         },
         {
             name: "谷歌",
