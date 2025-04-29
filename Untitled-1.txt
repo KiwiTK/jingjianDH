@@ -1,0 +1,5 @@
+kiwi-tab/
+├── manifest.json
+├── popup.html
+├── popup.css
+├── popup.js

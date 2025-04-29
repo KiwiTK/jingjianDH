@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img0.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    width: 800px; /* 从600px增加到800px */
+    margin-top: -150px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 添加阴影 */
+}
+
+#search-engine, 
+#search-input, 
+#search-button {
+    font-size: 20px; /* 从16px统一放大到20px */
+}
+
+#search-engine {
+    padding: 15px 20px; /* 增加内边距 */
+    border: none;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc; /* 添加分隔线 */
+    appearance: none; /* 移除默认样式 */
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#search-input {
+    flex: 2;
+    padding: 15px 20px; /* 增加内边距 */
+}
+
+#search-button {
+    padding: 15px 30px; /* 增加按钮尺寸 */
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}

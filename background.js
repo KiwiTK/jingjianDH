@@ -1,0 +1,1 @@
+console.log("Kiwi Tab background script loaded.");
